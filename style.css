@@ -1,0 +1,37 @@
+* {
+    margin: 0;    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main {
+    width: 380px;    height: 600px;
+    position: relative;
+    background-color: rgb(255, 182, 174);
+    border-radius: .2em;
+    box-shadow: .1em .1em 1em rgba(0, 0, 0, .1);
+    overflow: hidden;
+}
+
+.doodler {
+    width: 40px;    height: 60px;
+    position: absolute;
+    background-color: red;
+    z-index: 1;
+    transition: all .2s ease;
+}
+.platform {
+    width: 70px;    height: 12.5px;
+    position: absolute;
+    background-color: green;
+    border-radius: .2em;
+    transition: all .2s ease;
+}
